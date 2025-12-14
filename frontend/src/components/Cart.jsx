@@ -4,7 +4,7 @@ import { useCart } from "../context/CartContext";
 import { useAuth } from "../context/AuthContext";
 import "../styles/cart.css";
 
-const API_URL = "http://localhost:4000";
+const API_URL = "https://incubyte-assessment-1-f38k.onrender.com";
 
 const Cart = () => {
   const { cartItems, totalPrice, decreaseQty } = useCart();
