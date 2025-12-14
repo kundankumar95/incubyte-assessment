@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = "http://localhost:4000";
+const API_URL = "https://incubyte-assessment-1-f38k.onrender.com";
 const placeOrder = async () => {
   await axios.post(
     `${API_URL}/api/order`,
