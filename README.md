@@ -107,12 +107,12 @@ This ensures that admin routes remain protected.
 ```bash
 git clone https://github.com/kundankumar95/incubyte-assessment.git
 cd incubyte-assessment
-
+```
 ### 2️⃣ Run Backend Server
 
 Open **Terminal 1**:
 
-
+```bash
 cd backend
 npm install
 npm run dev
