@@ -3,8 +3,7 @@ import { useParams } from "react-router-dom";
 import { useCart } from "../context/CartContext";
 import "../styles/home.css";
 
-const API_URL = "http://localhost:4000";
-
+const API_URL = "https://incubyte-assessment-1-f38k.onrender.com";
 const Category = () => {
   const { type } = useParams();
   const { addToCart, cartItems } = useCart();
