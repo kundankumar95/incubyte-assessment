@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useCart } from "../context/CartContext";
 import "../styles/home.css";
 
-const API_URL = "http://localhost:4000";
+const API_URL = "https://incubyte-assessment-1-f38k.onrender.com";
 
 const Home = () => {
   const [allSweets, setAllSweets] = useState([]);
