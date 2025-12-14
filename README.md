@@ -112,7 +112,7 @@ cd incubyte-assessment
 
 Open **Terminal 1**:
 
-```bash
+
 cd backend
 npm install
 npm run dev
