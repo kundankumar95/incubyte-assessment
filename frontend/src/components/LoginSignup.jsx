@@ -31,7 +31,7 @@ const LoginSignup = () => {
   /* ================= LOGIN ================= */
   const loginUser = async () => {
     try {
-      const res = await fetch("http://localhost:4000/api/auth/login", {
+      const res = await fetch("https://incubyte-assessment-1-f38k.onrender.com/api/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -67,7 +67,7 @@ const LoginSignup = () => {
         adminCode: formData.role === "ADMIN" ? formData.adminCode : undefined,
       };
 
-      const res = await fetch("http://localhost:4000/api/auth/register", {
+      const res = await fetch("https://incubyte-assessment-1-f38k.onrender.com/api/auth/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
