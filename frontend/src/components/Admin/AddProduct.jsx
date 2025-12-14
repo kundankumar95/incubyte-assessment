@@ -2,7 +2,7 @@ import { useState } from "react";
 import upload_area from "../../assets/upload_image.png";
 import "../../styles/admin.css";
 
-const API_URL = "https://incubyte-assessment-1-f38k.onrender.com"
+const API_URL = "https://incubyte-assessment-1-f38k.onrender.com";
 console.log("API_URL =", API_URL);
 
 
