@@ -116,7 +116,7 @@ Open **Terminal 1**:
 cd backend
 npm install
 npm run dev
-
+```
 ### 3️⃣ Run Frontend Server
 
 Open **Terminal 2**:
@@ -125,7 +125,7 @@ Open **Terminal 2**:
 cd frontend
 npm install
 npm start
-
+```
 ---
 
 ---
