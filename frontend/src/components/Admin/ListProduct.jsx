@@ -4,7 +4,7 @@ import "../../styles/admin.css";
 import EditProduct from "./EditProduct";
 import { useAuth } from "../../context/AuthContext";
 
-const API_URL =  "http://localhost:4000";
+const API_URL = "https://incubyte-assessment-1-f38k.onrender.com";
 
 const ListProduct = () => {
   const [allProducts, setAllProducts] = useState([]);
