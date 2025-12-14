@@ -67,7 +67,7 @@ const Category = () => {
           onChange={(e) => setSearch(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && setQuery(search)}
         />
-        <button onClick={() => setQuery(search)}>Search</button>
+        <button className="search-btn" onClick={() => setQuery(search)}>Search</button>
       </div>
 
       <div className="sweet-grid">
