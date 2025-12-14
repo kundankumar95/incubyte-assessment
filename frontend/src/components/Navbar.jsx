@@ -2,13 +2,13 @@ import { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/navbar.css";
 import { useCart } from "../context/CartContext";
-
+import { useAuth } from "../context/AuthContext";
 import logo from "../assets/logo.png";
 import cart_icon from "../assets/cart_icon.png";
 
 const Navbar = () => {
   const { cartItems } = useCart();
-
+  const { user, logout } = useAuth();
   const [menu, setMenu] = useState("shop");
   const cartCount = cartItems.reduce((sum, item) => sum + item.quantity, 0);
 
