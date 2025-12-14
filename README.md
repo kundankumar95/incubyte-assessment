@@ -17,7 +17,7 @@ The project follows modern development practices, role-based access control, and
 
 ---
 
-## 🎯 Objectives (As per Assessment)
+## 🎯 Objectives 
 
 - Build a RESTful backend API
 - Implement authentication & authorization
@@ -69,7 +69,6 @@ This ensures that admin routes remain protected.
 
 ## 🖼️ Screenshots
 
-> Add your application screenshots inside the `/screenshots` folder and update file names if required.
 
 ### 🏠 Home Page
 
@@ -149,6 +148,7 @@ Frontend will run on:
 http://localhost:3000
 
 
+````
 👉 Ye **“How to Run Locally”** ke andar aata hai.
 
 ---
@@ -206,4 +206,3 @@ Smart India Hackathon 2023 Winner
 
 - GitHub: https://github.com/kundankumar95
 - LinkedIn: https://www.linkedin.com/in/kundan-kumar-a5512624a/
-````
